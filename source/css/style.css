@@ -5,7 +5,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url(global/mixines.scss);
 html {
   line-height: 1.15;
   /* 1 */
@@ -337,7 +336,12 @@ template {
 /**
  * Add the correct display in IE 10.
  */
-.page__body {
+.main-nav__list {
+  width: 250px;
+  height: 250px;
+  list-style: none;
+  text-decoration: none;
   margin: 0;
+  padding: 0;
 }
 /*# sourceMappingURL=style.css.map */

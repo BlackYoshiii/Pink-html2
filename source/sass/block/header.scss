@@ -1,12 +1,14 @@
-.page__body{
-  margin: 0;
-}
+@import "global/mixines.scss";
+
+$fancy-color: tomato;
+$bloe-color: yellow;
+
+
 
 .main-nav__list{
-  .site-list__item{
-    a{
-      @include sMP();
-    }
-  }
+  @include sizes(250px, 250px);
+@include smp();
 
 }
+
+
