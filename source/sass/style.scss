@@ -1,4 +1,10 @@
-@import "global/normalize";
-@import "block/header.scss";
-@import "global/mixines.scss";
+@import 'block/body';
+@import 'block/header';
+@import 'block/hero';
+@import 'block/blog-article';
+@import 'block/contacts';
+@import 'block/footer';
+@import 'block/news';
+@import 'global/mixins';
 
+// тут файлы подключаю каждый файл отдельно

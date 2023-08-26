@@ -1,0 +1,12 @@
+@mixin size($width: 0px, $height: 0px) {
+  width: $width;
+  height: $height;
+}
+@mixin magic($reduce: $size) {
+  width: $size;
+  height: $size;
+}
+
+@mixin magic($bgcolor) {
+  background-color: $color;
+}
