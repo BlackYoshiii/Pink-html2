@@ -11,21 +11,32 @@
 </head>
 
 <body class="page__body">
-  <header class="page-header">
-    <a class="page-header__logo" href="#">
-      <img src="img/logotype-white-tablet.png" width="147" height="40" alt="Лого"></a>
-    <nav class="main-nav">
-      <button class="main-nav__toggle" type="button">
-        <span class="isually-hidden">Открыть меню</span>
-      </button>
-      <ul class="main-nav__list site-list">
-        <li class="site-list__item"><a href="#">главная</a></li>
-        <li class="site-list__item"><a href="#">Фотографии</a></li>
-        <li class="site-list__item"><a href="#">конкурс</a></li>
-        <li class="site-list__item"><a href="#">html academy</a></li>
-      </ul>
-    </nav>
-  </header>
+
+    <header class="page-header">
+      <div class="wrapper">
+        <a class="page-header__logo" href="#">
+          <img src="img/logotype-white-tablet.png" width="147" height="40" alt="Лого"></a>
+        <nav id="menu" class="main-nav">
+            <ul class="main-nav__list">
+              <li class="site-list__item"><a href="#">главная</a></li>
+              <li class="site-list__item"><a href="#">Фотографии</a></li>
+              <li class="site-list__item"><a href="#">конкурс</a></li>
+              <li class="site-list__item"><a href="#">html academy</a></li>
+            </ul>
+
+        </nav>
+        <input id="toggle" type="checkbox"></input>
+            <label for="toggle" class="hamburger">
+              <div class="top-bun"></div>
+              <div class="meat"></div>
+              <div class="bottom-bun"></div>
+            </label>
+
+
+
+      </div>
+    </header>
+
 
   <main class="page-main">
     <h1 class="visually-hidden">Pink-Сделай мир розовым</h1>
